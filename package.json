@@ -1,0 +1,29 @@
+{
+  "name": "hw-node-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiBlyskun/hw-node-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiBlyskun/hw-node-1/issues"
+  },
+  "homepage": "https://github.com/VitaliiBlyskun/hw-node-1#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.2"
+  }
+}
